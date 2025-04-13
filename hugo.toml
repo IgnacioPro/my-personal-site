@@ -6,7 +6,9 @@ theme = "PaperMod"
 # Enable search
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 [params]
   # Site description
   description = "I use this website to pour my thoughts into the world"
