@@ -1,0 +1,84 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Ignacio Horcada Bernal"
+theme = "PaperMod"
+
+# Enable search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  # Site description
+  description = "I use this website to pour my thoughts into the world"
+  
+  # PaperMod theme parameters
+  defaultTheme = "auto" # dark, light, auto
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  
+  # Home page profile mode
+  [params.profileMode]
+    enabled = true
+    title = "Ignacio"
+    subtitle = "Software Engineer"
+    imageUrl = "profile-pic.jpeg"
+    imageTitle = "Profile Picture"
+    
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects"
+    
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/posts"
+
+  # Social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/IgnacioPro"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/ignaciohorcadabernal/"
+
+# Menu items
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 3
+  
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+  
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 6

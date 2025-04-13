@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ignacio Horcada Bernal</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ignacio Horcada Bernal</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World: My First Blog Post</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>My first blog post introducing myself and this website</description>
+    </item>
+    <item>
+      <title>Project 1: [Project Name]</title>
+      <link>http://localhost:1313/projects/project-1/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-1/</guid>
+      <description>Description of Project 1</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>About Ignacio - Software Engineer</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Contact Ignacio</description>
+    </item>
+    <item>
+      <title>404: Page Not Found</title>
+      <link>http://localhost:1313/404.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/404.html</guid>
+      <description>&lt;p&gt;Oops! The page you&amp;rsquo;re looking for doesn&amp;rsquo;t exist.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Go back to the homepage&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
