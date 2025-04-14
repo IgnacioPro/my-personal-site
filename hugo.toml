@@ -11,7 +11,7 @@ theme = "PaperMod"
     dir = ':cacheDir/images'
 [params]
   # Site description
-  description = "I use this website to pour my thoughts into the world"
+  description = "I use this as my knowledge dump into the world"
   
   # PaperMod theme parameters
   defaultTheme = "auto" # dark, light, auto
@@ -33,7 +33,7 @@ theme = "PaperMod"
     enabled = true
     title = "Ignacio"
     subtitle = "Software Engineer"
-    imageUrl = "profile-pic.jpeg"
+    imageUrl = "profile.jpg"
     imageTitle = "Profile Picture"
     
     [[params.profileMode.buttons]]
