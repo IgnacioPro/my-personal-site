@@ -33,7 +33,7 @@ theme = "PaperMod"
     enabled = true
     title = "Ignacio"
     subtitle = "Software Engineer"
-    imageUrl = "/images/profile.jpg"
+    imageUrl = "/profile-pic.jpeg"
     imageTitle = "Profile Picture"
     
     [[params.profileMode.buttons]]
