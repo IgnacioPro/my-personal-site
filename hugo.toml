@@ -33,7 +33,7 @@ theme = "PaperMod"
     enabled = true
     title = "Ignacio"
     subtitle = "Software Engineer"
-    imageUrl = "https://github.com/IgnacioPro/my-personal-site/blob/main/public/images/profile.jpg"
+    imageUrl = "/public/images/profile.jpg"
     imageTitle = "Profile Picture"
     
     [[params.profileMode.buttons]]
