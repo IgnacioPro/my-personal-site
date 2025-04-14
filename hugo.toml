@@ -38,11 +38,11 @@ theme = "PaperMod"
     
     [[params.profileMode.buttons]]
       name = "Projects"
-      url = "/projects/"
+      url = "projects"
     
     [[params.profileMode.buttons]]
       name = "Blog"
-      url = "/posts/"
+      url = "posts"
 
   # Social icons
   [[params.socialIcons]]
