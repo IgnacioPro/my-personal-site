@@ -1,3 +1,4 @@
+{{ define "partials/schema_json.html" }}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
@@ -123,6 +124,7 @@
   }
 }
 </script>
-{{- end }}{{/* .IsPage end */}}
+{{- end }}
+{{ end }}{{/* .IsPage end */}}
 
 {{- end -}}

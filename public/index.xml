@@ -4,7 +4,7 @@
     <title>Ignacio Horcada Bernal</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Ignacio Horcada Bernal</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.146.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -27,7 +27,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>About Ignacio - Software Engineer</description>
+      <description>About Ignacio</description>
     </item>
     <item>
       <title>Contact</title>
