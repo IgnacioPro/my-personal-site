@@ -1,0 +1,32 @@
+name: Translate Content
+
+on:
+  push:
+    paths:
+      - 'content/**/*.md'
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install openai python-frontmatter
+
+      - name: Translate new/changed content
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python translate_content.py
+
+      - name: Commit and push translations
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Add translated content [auto]'
+          branch: ${{ github.ref }}

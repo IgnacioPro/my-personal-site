@@ -1,16 +1,15 @@
 ---
-title: "Hello World: My First Blog Post"
-date: 2025-03-31
+title: "The paint points that SRE face in 2025"
+date: 2025-04-15
 draft: false
-description: "My first blog post introducing myself and this website"
-tags: ["introduction", "personal"]
+tags: ["software engineering", "SRE"]
 categories: ["Blog"]
 showToc: true
 weight: 1
 cover:
-    image: "/images/blog/hello-world.jpg"
-    alt: "Hello World"
-    caption: "First steps into blogging"
+    image: "/images/blog/sre-pains-2025.jpg"
+    alt: "SRE 2025"
+    caption: "SRE pain points"
     relative: false
 ---
 
