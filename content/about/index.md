@@ -1,6 +1,5 @@
 ---
 title: "About Me"
-date: 2025-03-31
 draft: false
 description: "About Ignacio"
 showToc: false
